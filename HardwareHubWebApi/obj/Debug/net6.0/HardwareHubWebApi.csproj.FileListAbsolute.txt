@@ -1,0 +1,72 @@
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\appsettings.json
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareHubWebApi.exe
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareHubWebApi.deps.json
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareHubWebApi.runtimeconfig.json
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareHubWebApi.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareHubWebApi.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.csproj.AssemblyReference.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.AssemblyInfoInputs.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.AssemblyInfo.cs
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.csproj.CoreCompileInputs.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\scopedcss\bundle\HardwareHubWebApi.styles.css
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.csproj.CopyComplete
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\refint\HardwareHubWebApi.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.genruntimeconfig.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\ref\HardwareHubWebApi.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareStore.core.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareStore.Infrastructure.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareStore.core.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\bin\Debug\net6.0\HardwareStore.Infrastructure.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.csproj.AssemblyReference.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.AssemblyInfoInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.AssemblyInfo.cs
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.csproj.CoreCompileInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareHubWebApi\obj\Debug\net6.0\HardwareHubWebApi.MvcApplicationPartsAssemblyInfo.cache

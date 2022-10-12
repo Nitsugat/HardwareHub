@@ -1,0 +1,12 @@
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\bin\Debug\net6.0\HardwareHub.core.deps.json
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\bin\Debug\net6.0\HardwareHub.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\bin\Debug\net6.0\HardwareHub.core.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareHub.core.csproj.AssemblyReference.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareHub.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareHub.core.AssemblyInfoInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareHub.core.AssemblyInfo.cs
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareHub.core.csproj.CoreCompileInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareHub.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\refint\HardwareHub.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareHub.core.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\ref\HardwareHub.core.dll

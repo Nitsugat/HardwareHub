@@ -1,0 +1,15 @@
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.AssemblyInfo.cs
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareStore.Infrastructure.deps.json
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareStore.Infrastructure.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareStore.Infrastructure.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareStore.core.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareStore.core.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.csproj.CopyComplete
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\refint\HardwareStore.Infrastructure.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareStore.Infrastructure.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.Infrastructure\obj\Debug\net6.0\ref\HardwareStore.Infrastructure.dll

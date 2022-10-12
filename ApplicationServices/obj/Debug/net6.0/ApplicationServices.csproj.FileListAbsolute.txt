@@ -1,0 +1,5 @@
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.AssemblyReference.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfoInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfo.cs
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CoreCompileInputs.cache

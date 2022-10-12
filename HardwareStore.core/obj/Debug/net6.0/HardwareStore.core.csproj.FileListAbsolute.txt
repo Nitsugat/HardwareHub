@@ -1,0 +1,24 @@
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\bin\Debug\net6.0\HardwareStore.core.deps.json
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\bin\Debug\net6.0\HardwareStore.core.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\bin\Debug\net6.0\HardwareStore.core.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.csproj.AssemblyReference.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.AssemblyInfoInputs.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.AssemblyInfo.cs
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.csproj.CoreCompileInputs.cache
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\refint\HardwareStore.core.dll
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.pdb
+C:\Users\grana\source\repos\HardwareStore\HardwareStore.core\obj\Debug\net6.0\ref\HardwareStore.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\bin\Debug\net6.0\HardwareStore.core.deps.json
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\bin\Debug\net6.0\HardwareStore.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\bin\Debug\net6.0\HardwareStore.core.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.csproj.AssemblyReference.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.AssemblyInfoInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.AssemblyInfo.cs
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.csproj.CoreCompileInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\refint\HardwareStore.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\HardwareStore.core.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.core\obj\Debug\net6.0\ref\HardwareStore.core.dll
