@@ -1,8 +1,6 @@
-﻿using HardwareStore.core.DTOs.DTOSadmins;
-using HardwareStore.core.Entities;
+﻿using ApplicationServices.Interfaces.Repositories;
+using HardwareHub.core.Entities;
 using HardwareStore.Infrastructure.Data;
-using HardwareStore.Infrastructure.Entities;
-using HardwareStore.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace HardwareStore.Infrastructure.Repositories
@@ -18,76 +16,42 @@ namespace HardwareStore.Infrastructure.Repositories
 
         
 
-        public async Task<List<UserDto>> GetAll()
+
+
+        public async Task<User> GetByCuil(int Cuil)
         {
-            List<UserDto> userDto = new(); 
-            var userContext = await _context.User.Include(b => b.Type).AsNoTracking().ToListAsync(); 
+            var user =  _context.User.FirstOrDefault(x => x.Cuil == Cuil);
 
-            if ( userContext != null)
-            {
-                foreach (var user in userContext)
-                {
-                    userDto.Add(new UserDto
-                    {
-                        UserId = user.UserId,
-                        UserName=user.Name,
-                        EmailAddress= user.EmailAddress,
-                        Cuil = user.Cuil,
-                        TypeUser = user.Type.Type,
-
-                    }) ;
-                }
-
-                return userDto;
-            }
-
-            return userDto;
-        }
-        public Task<UserDto> GetByCuil(int Cuil)
-        {
-            throw new NotImplementedException();
+            return user;
         }
 
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            var user = _context.User.FirstOrDefault(x => x.UserId == id);
+            _context.User.Remove(user);
         }
 
        
 
-        private async Task Insert(UserDto entity)
+        public async Task Insert(User user)
         {
-            var usertype = _context.TypeUser.FirstOrDefault(s=>s.Type == entity.TypeUser);
+            await _context.User.AddAsync(user);
 
-            if (entity != null)
-            {
-
-           
-            _context.User.Add(new User
-            {
-                Name = entity.UserName,
-                Surname = entity.Surname,
-                Cuil = entity.Cuil,
-                EmailAddress = entity.EmailAddress,
-                Password = entity.Password,
-                TypeUserId = usertype.TypeId,
-
-            });
-
-               await _context.SaveChangesAsync();
-            }
+            await _context.SaveChangesAsync();
         }
 
-        public Task Update(int id)
+        public async Task Update(User user)
         {
-            throw new NotImplementedException();
+            _context.User.Update(user);
+            await _context.SaveChangesAsync();
         }
 
-
-        public Task Save(UserDto entity)
+        public async Task<List<User>> GetAll()
         {
-            throw new NotImplementedException();
+            var users = await _context.User.ToListAsync();
+
+            return users;
         }
     }
 }

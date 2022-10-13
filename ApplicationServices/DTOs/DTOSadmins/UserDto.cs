@@ -8,13 +8,12 @@ namespace ApplicationServices.DTOs.DTOSadmins
 {
     public class UserDto
     {
-        public int UserId { get; set; }
         public int Cuil { get; set; }
         public string? UserName { get; set; }
         public string? Surname { get; set; }
         public string? Password { get; set; }
         public string? EmailAddress { get; set; }
-        public string? TypeUser { get; set; }
+        public int? TypeUser { get; set; }
 
     }
 }

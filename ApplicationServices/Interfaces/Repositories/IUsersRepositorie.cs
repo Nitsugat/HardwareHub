@@ -1,10 +1,11 @@
-﻿using HardwareStore.core.DTOs.DTOSadmins;
+﻿
+using HardwareHub.core.Entities;
 
 namespace ApplicationServices.Interfaces.Repositories;
 
-public interface IUsersRepositorie: IGenericRepositorie<UserDto>
+public interface IUsersRepositorie: IGenericRepositorie<User>
 {
 
-    public Task<UserDto> GetByCuil(int cuil);
+    public Task<User> GetByCuil(int cuil);
     
 }
