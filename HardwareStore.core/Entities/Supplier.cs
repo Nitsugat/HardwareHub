@@ -1,10 +1,13 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+
 namespace HardwareHub.core.Entities
 {
-    public class Supplier
+    public class Supplier: BasesEntities.BaseEntity
     {
 
+        [Key]
         public int SupplierId { get; set; }
         public string? SupplierName { get; set; }
         public string? SupplierSurname { get; set; }

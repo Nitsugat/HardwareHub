@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HardwareHub.core.Entities
 {
-    public class Product
+    public class Product: BasesEntities.BaseEntity
     {
 
-       
+        [Key]
         public int ProductId { get; set; }
         public string? ProductName { get; set; }
         public int BrandId { get; set; }
@@ -17,7 +17,7 @@ namespace HardwareHub.core.Entities
         public bool State { get; set; }
         public Supplier? Supplier { get; set; }
         public HardwareCategory? HardwareCategory { get; set; }
-        public Brand? Brand { get; set; }
+        public Brands? Brand { get; set; }
 
     }
 }

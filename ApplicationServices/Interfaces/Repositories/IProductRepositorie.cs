@@ -1,16 +1,15 @@
-﻿using HardwareStore.core.DTOs.DTOSadmins;
+﻿
+
+using ApplicationServices.DTOs.DTOSadmins;
+using HardwareHub.core.Entities;
 
 namespace ApplicationServices.Interfaces.Repositories
 {
-    public interface IProductRepositorie
+    public interface IProductRepositorie:IGenericRepositorie<Product>
     {
-        public Task<ProductFullDto> GetProductById(int Id);
-        public Task<List<ProductDto>> GetProductsByCategory(int category);
-
-        public Task<List<ProductDto>> GetAll();
-        public Task ChangeState();
-        public Task DeleteById(int id);
-        public Task Save(ProductFullDto productFullDto);
+       
+        public Task<List<Product>> GetProductsByCategory(int category);
+        public Task ChangeState(int id);
 
     }
 }

@@ -1,73 +1,61 @@
-﻿using HardwareStore.core.DTOs.DTOSadmins;
-using HardwareStore.Infrastructure.Services;
-using Microsoft.AspNetCore.Http;
+﻿using ApplicationServices.Services.CreateCommand.BrandCommands;
+using ApplicationServices.Services.DeleteCommands;
+using ApplicationServices.Services.Querys.QuerysBrand;
+using ApplicationServices.Services.UpdateCommands.Brand;
+using HardwareHub.core.Entities;
+using HardwareHubWebApi.Controllers;
 using Microsoft.AspNetCore.Mvc;
+using static ApplicationServices.Services.Querys.QuerysBrand.GetAllBrandsQuery;
 
-namespace HardwareStore.WebApi.Controllers
+namespace HardwareHub.WebApi.Controllers
 {
-    [Route("HardwareHub/[controller]")]
-    [ApiController]
-    public class BrandController : ControllerBase
+    
+    [ApiVersion("1.0")]
+    public class BrandController : BaseController
     {
-
-        private readonly IBrandsRepositorie _brandRep;
-        public BrandController(IBrandsRepositorie brandRep)
-        {
-            _brandRep = brandRep;
-        }
+      
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<BrandDto>>> GetAllBrands() {
-
-            var brands = await _brandRep.GetAll();
-            return Ok(brands);
-        }
-
-        [HttpPut]
-        public async Task InsertBrand(BrandDto brandDto) {
-
-
-            await _brandRep.Save(brandDto);
-         
-        
-        }
-
-        [HttpDelete ("{id}")]
-
-        public async Task DeleteBrand(int id)
+        public async Task<IActionResult> GetAllBrands()
         {
-            await _brandRep.Delete(id);
+
+            return Ok(await Mediator.Send(new GetAllBrandsQuery { }));
         }
 
+        [HttpPost]
+        public async Task<IActionResult> InsertBrand(CreateBrandCommand brandCommand) 
+        {
+            return Ok(await Mediator.Send(brandCommand));
         
+        }
 
+        [HttpDelete]
 
-
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> UpdateBrand(int Id, BrandDto brandDto) 
-
-        //{
-        //    if (Id != brandDto.BrandId) 
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    try
-        //    {
-        //    }
-        //    catch
-        //    {
-
-        //    }
-
-
-        //    //return await IBrandRepositorie.Delete(BrandDto);
-
-        //}
+        public async Task<IActionResult> DeleteBrand(DeleteBrandCommand brandcommand)
+        {
+            return Ok( await Mediator.Send(brandcommand));
+        }
 
 
 
 
-        
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateBrand(int id ,UpdateBrandCommand command )
+        {
+            //if (id != command.BrandId)
+            //{
+            //    throw new Exception($"Hubo un error al encontrar la marca solicitada, intente nuevamente.");
+            //}
+
+            if (id != command.BrandId)
+                return BadRequest("Error en los ID a modificar");
+            return Ok(await Mediator.Send(command));
+        }
+
+
+
+
+
     }
 }

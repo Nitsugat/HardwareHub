@@ -1,16 +1,13 @@
-﻿using HardwareStore.core.DTOs.DTOSadmins;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using HardwareHub.core.Entities;
 
 namespace ApplicationServices.Interfaces.Repositories
 {
-    public interface IPurchaseRepositorie: IGenericRepositorie<PurchaseDto>
+    public interface IPurchaseRepositorie: IGenericRepositorie<Purchase>
     {
 
 
-        public Task AddDetail(PurchaseDetailDto detail);
+        public Task AddDetail(PurchaseDetail detail);
     }
 }

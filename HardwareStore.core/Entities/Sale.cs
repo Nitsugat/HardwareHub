@@ -1,11 +1,14 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+
 namespace HardwareHub.core.Entities
 {
-    public class Sale
+    public class Sale: BasesEntities.BaseEntity
     {
 
-      
+
+        [Key]
         public int SaleId { get; set; }
         public int ClientId { get; set; }
         public int TotalPrice { get; set; }

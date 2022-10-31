@@ -1,7 +1,7 @@
-using HardwareStore.Infrastructure.Data;
-using HardwareStore.Infrastructure.Repositories;
-using HardwareStore.Infrastructure.Services;
-using Microsoft.EntityFrameworkCore;
+using ApplicationServices;
+using HardwareHub.Infrastructure;
+using HardwareHubWebApi.Extensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,19 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddTransient<IProductRepositorie, ProductRepositorie>();
-builder.Services.AddTransient<IBrandsRepositorie, BrandRepositorie>();
-builder.Services.AddTransient<ISupplierRepositorie, SupplierRepositorie>();
-builder.Services.AddTransient<IHardwareCategoryRepositorie, HardwareCategoryRepositorie>();
-builder.Services.AddTransient<IPurchaseRepositorie, PurchaseRepositorie>();
-builder.Services.AddTransient<IStockProducts, StockRepositorie>();
-
-builder.Services.AddDbContext<HardwareHubContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("HardwareHubDB") ??
-                            throw new InvalidOperationException("Connectionstring 'HardwareHub' not found.")));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+builder.Services.AddPersistenceInfraestructure(builder.Configuration);
+builder.Services.AddAplicationLayer();
+builder.Services.AddApiVersioningExtension();
+
 
 var app = builder.Build();
 
@@ -37,5 +33,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseErrorHandlingMiddlerware();
 
 app.Run();

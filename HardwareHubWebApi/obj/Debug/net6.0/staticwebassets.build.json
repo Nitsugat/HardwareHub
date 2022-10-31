@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7nFoXmHoagSx63BtEPJ9sahm8nq1UYpRI6jU/lA9Q0k=",
+  "Source": "HardwareHubWebApi",
+  "BasePath": "_content/HardwareHubWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,17 +1,10 @@
-﻿using HardwareStore.core.DTOs.DTOSadmins;
-using HardwareStore.core.Entities;
-using HardwareStore.Infrastructure.Data;
-using HardwareStore.Infrastructure.Services;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ApplicationServices.Interfaces.Repositories;
+using HardwareHub.core.Entities;
+using HardwareHub.Infrastructure.Data;
 
-namespace HardwareStore.Infrastructure.Repositories
+namespace HardwareHub.Infrastructure.Repositories
 {
-    public class StockRepositorie: IStockProducts  
+    public class StockRepositorie  
     {
         private readonly HardwareHubContext _context;
 
@@ -20,47 +13,17 @@ namespace HardwareStore.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<List<StockDto>> GetAllStock()
+        public Task<List<Stock>> GetAllStock()
         {
-            List<StockDto> stocksDto = new();
-
-            var stocks = await _context.Stock.ToListAsync();
-
-            if (stocks != null)
-            {
-                foreach (var stock in stocks)
-                {
-                    stocksDto.Add(new StockDto
-                    {
-                        StockId= stock.StockId,
-                        ProductName = stock.Product.ProductName,
-                        PublicPrice = stock.PublicPrice,
-                        Quantitly= stock.Quantitly,
-                        DateUpdate= stock.DateUpdate.ToString(),
-                       
-
-                    }) ;
-                }
-            }
-
-            return stocksDto;
+            throw new NotImplementedException();
         }
 
-        public async Task InsertStock(ProductDto productDto)
+        public Task InsertStock(Stock entity)
         {
-            _context.Stock.Add(new Stock
-            {
-                StockId= productDto.ProductId,
-                ProductId = productDto.ProductId,
-                PublicPrice = 0,
-                Quantitly = 0,
-                DateUpdate = DateTime.Now,
-            });
-
-             await _context.SaveChangesAsync();
+            throw new NotImplementedException();
         }
 
-        public Task UpdateStock(StockDto stock)
+        public Task UpdateStock(Stock stock)
         {
             throw new NotImplementedException();
         }

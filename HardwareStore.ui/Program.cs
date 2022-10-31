@@ -1,4 +1,4 @@
-using HardwareStore.ui.Data;
+using HardwareHub.ui.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 

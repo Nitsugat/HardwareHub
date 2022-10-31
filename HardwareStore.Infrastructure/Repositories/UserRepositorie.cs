@@ -1,11 +1,10 @@
 ﻿using ApplicationServices.Interfaces.Repositories;
 using HardwareHub.core.Entities;
-using HardwareStore.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+using HardwareHub.Infrastructure.Data;
 
-namespace HardwareStore.Infrastructure.Repositories
+namespace HardwareHub.Infrastructure.Repositories
 {
-    public class UserRepositorie : IUsersRepositorie
+    public class UserRepositorie 
     {
         private readonly HardwareHubContext _context;
 
@@ -14,44 +13,34 @@ namespace HardwareStore.Infrastructure.Repositories
           _context = context;
         }
 
-        
-
-
-
-        public async Task<User> GetByCuil(int Cuil)
+        public Task Delete(int id)
         {
-            var user =  _context.User.FirstOrDefault(x => x.Cuil == Cuil);
-
-            return user;
+            throw new NotImplementedException();
         }
 
-
-        public async Task Delete(int id)
+        public Task<List<User>> GetAll()
         {
-            var user = _context.User.FirstOrDefault(x => x.UserId == id);
-            _context.User.Remove(user);
+            throw new NotImplementedException();
         }
 
-       
-
-        public async Task Insert(User user)
+        public Task<User> GetByCuil(int cuil)
         {
-            await _context.User.AddAsync(user);
-
-            await _context.SaveChangesAsync();
+            throw new NotImplementedException();
         }
 
-        public async Task Update(User user)
+        public Task<User> GetById(int id)
         {
-            _context.User.Update(user);
-            await _context.SaveChangesAsync();
+            throw new NotImplementedException();
         }
 
-        public async Task<List<User>> GetAll()
+        public Task Insert(User entity)
         {
-            var users = await _context.User.ToListAsync();
+            throw new NotImplementedException();
+        }
 
-            return users;
+        public Task Update(User entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

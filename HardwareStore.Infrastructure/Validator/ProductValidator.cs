@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HardwareStore.Infrastructure.Validator
+namespace HardwareHub.Infrastructure.Validator
 {
     public class ProductValidator: AbstractValidator<Product>
     {

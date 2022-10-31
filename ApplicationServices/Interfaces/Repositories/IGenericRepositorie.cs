@@ -11,7 +11,9 @@ namespace ApplicationServices.Interfaces.Repositories
         public Task<List<T>> GetAll();
         public Task Update(T entity);
         public Task Delete(int id);
-        public Task Insert(T entity);
+        public Task<T> Insert(T entity);
+
+        public Task<T> GetById(int id);
      
     }
 }

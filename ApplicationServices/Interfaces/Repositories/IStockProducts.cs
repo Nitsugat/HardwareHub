@@ -1,18 +1,13 @@
-﻿using HardwareStore.core.DTOs.DTOSadmins;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HardwareHub.core.Entities;
 
 namespace ApplicationServices.Interfaces.Repositories
 {
     public interface IStockProducts
     {
-        public Task UpdateStock(StockDto stock);
-        public Task<List<StockDto>> GetAllStock();
+        public Task UpdateStock(Stock stock);
+        public Task<List<Stock>> GetAllStock();
 
-        public Task InsertStock(ProductDto entity);
+        public Task InsertStock(Stock entity);
 
     }
 }

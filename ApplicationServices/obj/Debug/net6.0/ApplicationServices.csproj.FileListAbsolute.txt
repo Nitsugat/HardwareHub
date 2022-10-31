@@ -3,3 +3,13 @@ D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\
 D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfoInputs.cache
 D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfo.cs
 D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CoreCompileInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\bin\Debug\net6.0\ApplicationServices.deps.json
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\bin\Debug\net6.0\ApplicationServices.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\bin\Debug\net6.0\ApplicationServices.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\bin\Debug\net6.0\HardwareHub.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\bin\Debug\net6.0\HardwareHub.core.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CopyComplete
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\refint\ApplicationServices.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ApplicationServices.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\ApplicationServices\obj\Debug\net6.0\ref\ApplicationServices.dll

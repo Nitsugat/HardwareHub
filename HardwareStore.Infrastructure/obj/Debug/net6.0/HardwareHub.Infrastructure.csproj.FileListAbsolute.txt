@@ -3,3 +3,15 @@ D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infras
 D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareHub.Infrastructure.AssemblyInfoInputs.cache
 D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareHub.Infrastructure.AssemblyInfo.cs
 D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareHub.Infrastructure.csproj.CoreCompileInputs.cache
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareHub.Infrastructure.deps.json
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareHub.Infrastructure.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareHub.Infrastructure.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\bin\Debug\net6.0\ApplicationServices.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareHub.core.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\bin\Debug\net6.0\ApplicationServices.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\bin\Debug\net6.0\HardwareHub.core.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareHub.Infrastructure.csproj.CopyComplete
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareHub.Infrastructure.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\refint\HardwareHub.Infrastructure.dll
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\HardwareHub.Infrastructure.pdb
+D:\TSDS.CARRERA\2do\Programación 2\HardwareHub\HardwareHub\HardwareStore.Infrastructure\obj\Debug\net6.0\ref\HardwareHub.Infrastructure.dll

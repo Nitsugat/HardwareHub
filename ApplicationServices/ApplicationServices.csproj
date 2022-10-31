@@ -8,7 +8,15 @@
 
   <ItemGroup>
     <Folder Include="DTOs\DTOSclients\" />
-    <Folder Include="Services\" />
+    <Folder Include="Services\CreateCommand\Client\" />
+    <Folder Include="Services\CreateCommand\User\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Specification" Version="6.1.0" />
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 
   <ItemGroup>

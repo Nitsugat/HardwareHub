@@ -1,10 +1,12 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+
 namespace HardwareHub.core.Entities
 {
-    public class Purchase
+    public class Purchase: BasesEntities.BaseEntity
     {
-
+        [Key]
         public int PurchaseId { get; set; }
         public int SupplierId { get; set; }
         public int TotalPrice { get; set; }

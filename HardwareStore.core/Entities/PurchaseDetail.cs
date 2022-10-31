@@ -1,9 +1,12 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace HardwareHub.core.Entities
 {
-    public class PurchaseDetail
+    public class PurchaseDetail: BasesEntities.BaseEntity
     {
 
+        [Key]
         public int DetailId { get; set; }
         public int PurchaseId { get; set; }
         public int ProductId { get; set; }

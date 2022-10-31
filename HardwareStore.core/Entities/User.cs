@@ -1,10 +1,13 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+
 namespace HardwareHub.core.Entities
 {
-    public class User
+    public class User: BasesEntities.BaseEntity
     {
 
+        [Key]
         public int UserId { get; set; }
         public int Cuil { get; set; }
         public string? Name { get; set; }

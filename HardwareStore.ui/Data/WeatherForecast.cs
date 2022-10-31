@@ -1,4 +1,4 @@
-namespace HardwareStore.ui.Data
+namespace HardwareHub.ui.Data
 {
     public class WeatherForecast
     {
