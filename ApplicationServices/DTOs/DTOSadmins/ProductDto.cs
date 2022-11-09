@@ -11,11 +11,11 @@ namespace ApplicationServices.DTOs.DTOSadmins
 
         public int ProductId { get; set; }
         public string? ProductName { get; set; }
-        public string? BrandName { get; set; }
-        public string? HardwareCategory { get; set; }
-        public bool State { get; set; }
-        public string? SupplierName { get; set; }
-        public string? ImgProduct { get; set; }
+        public int BrandId { get; set; }
+        public int? HardwareCategory { get; set; }
+        public int? Supplier { get; set; }
+        public string? Description { get; set; }
+        public string? Img { get; set; }
 
     }
 }

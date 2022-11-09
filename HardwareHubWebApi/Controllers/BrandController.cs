@@ -2,6 +2,7 @@
 using ApplicationServices.Services.DeleteCommands;
 using ApplicationServices.Services.Querys.QuerysBrand;
 using ApplicationServices.Services.UpdateCommands.Brand;
+using ApplicationServices.Wrappers.Parameters;
 using HardwareHub.core.Entities;
 using HardwareHubWebApi.Controllers;
 using Microsoft.AspNetCore.Mvc;
@@ -15,11 +16,17 @@ namespace HardwareHub.WebApi.Controllers
     {
       
 
-        [HttpGet]
-        public async Task<IActionResult> GetAllBrands()
+        [HttpGet()]
+        public async Task<IActionResult> GetAllBrands([FromQuery] GetAllBrandsParameters filter)
         {
 
-            return Ok(await Mediator.Send(new GetAllBrandsQuery { }));
+            return Ok(await Mediator.Send(new GetAllBrandsQuery 
+            { 
+            PageSize = filter.PageSize,
+            BrandName = filter.BrandName,
+            PageIndex=filter.PageIndex,
+            
+            }));
         }
 
         [HttpPost]

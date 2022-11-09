@@ -40,7 +40,7 @@ namespace ApplicationServices.Services.UpdateCommands.HardwareCategoryUpdate
             category.Gaing = request.Gaing;
            await _rep.UpdateAsync(category);
 
-            return new Response<int>(request.Id,message:"Se modifico correctamente");
+            return new Response<int>(request.Id,message:$"Se modifico correctamente la categoria con id {request.Id}");
 
 
         }

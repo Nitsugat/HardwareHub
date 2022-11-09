@@ -13,7 +13,7 @@ namespace HardwareHub.core.Entities
         public string? ImgProduct { get; set; }
         public int? HardwareCategoryId { get; set; }
         public int SupplierId { get; set; }
-        public string? Desciption { get; set; }
+        public string? Description { get; set; }
         public bool State { get; set; }
         public Supplier? Supplier { get; set; }
         public HardwareCategory? HardwareCategory { get; set; }

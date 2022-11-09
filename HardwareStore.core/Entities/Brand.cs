@@ -11,6 +11,6 @@ namespace HardwareHub.core.Entities
         [Key]
         public int BrandId { get; set; }
         public string? BrandName { get; set; }
-        public IList<Product>? Products { get; set; }
+        
     }
 }
